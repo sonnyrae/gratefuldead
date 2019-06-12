@@ -1,7 +1,7 @@
 body {
     /*    broiler plate*/
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: 0 auto;
     padding: 10px;
     background-color: #f1f1f1;

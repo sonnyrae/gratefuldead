@@ -6,7 +6,6 @@ var maxBounds = L.latLngBounds(
     L.latLng(75.162102, -20.233040) //NE
 );
 
-L.Map.addInitHook("addHandler", "gestureHandling", GestureHandling);
 
 var map = L.map('map', {
     center: [33.5, -86.8],
@@ -14,7 +13,6 @@ var map = L.map('map', {
     minZoom: 4,
     maxZoom: 5,
     maxBounds: maxBounds,
-    gestureHandling: true
 });
 
 

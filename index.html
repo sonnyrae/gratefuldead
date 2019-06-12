@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="./main.css">
+
+    <!--  leaflett css, js  -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+
+    <!--  carto.js  -->
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.11/carto.min.js"></script>
+    <link href="https://carto.com/developers/carto-js/examples/maps/public/style.css" rel="stylesheet">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Alfa+Slab+One|Noto+Sans|Lobster|Roboto+Mono&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+    <div class="app-container">
+        <div class="header">
+            <div></div>
+            <div id="deadfont">
+                <img src="./steal.png">
+            </div>
+            <div class="spacer"></div>
+            <div id="title">
+                number of<br>shows played in<br>the US by the
+            </div>
+            <div id="deadfont">
+                <img src="./grtfl.png">
+            </div>
+            <div class="spacer"></div>
+            <div id="text"><br>by<br>Sonny Schweke</div>
+            <div></div>
+        </div>
+
+        <div class="side-pane">
+            <div class="spacer"></div>
+            <div id="tit1"><i>a brief history</i></div>
+            <div id="text">
+                <p>The Grateful Dead was formed in 1965 in Palo Alto, CA.
+                    Formerly the Warlocks, there have been several spin-off
+                    groups featuring at least one core member of the Grateful Dead:
+                    Jerry Garcia Band, RatDog, Phil Lesh & Friends, Old & In the Way,
+                    and Dead & Company.</p>
+            </div>
+            <div></div>
+
+            <div id="tit"><i>most-played songs live:</i></div>
+            <div id="text">
+                <p>
+                    Me & My Uncle, Sugar Magnolia, The Other One,
+                    Playing in the Band, China Cat Sunflower, I Know You Rider,
+                    Not Fade Away, Truckin', Jack Straw, New Minglewood Blues
+                </p>
+            </div>
+
+            <div id="tit"><i>most-played venues:</i></div>
+            <div id="text">
+                <p>
+                    Oakland Coliseum, Oakland<br>Fillmore West, San Francisco<br>
+                    Winterland, San Francisco<br>Oakland Auditorium, Oakland<br>
+                    The Spectrum, Philadelphia<br> Madison Square Garden, New York
+                </p>
+            </div>
+            <div class="spacer"></div>
+        </div>
+
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--    <script src="./js/statescontig.js"></script>-->
+    <script src="./map.js"></script>
+
+
+</body>
+
+</html>

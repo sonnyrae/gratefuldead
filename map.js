@@ -12,7 +12,7 @@ var map = L.map('map', {
     minZoom: 4,
     maxZoom: 5,
     maxBounds: maxBounds,
-    gestureHandling: 'cooperative'
+    gestureHandling: true
 });
 
 
